@@ -43,3 +43,23 @@ func getAgeAndCongratulate(name: String) -> Int {
 
 let friend2 = "Pete"
 var friend2Age = getAgeAndCongratulate(friend2)
+
+func fromYearToMonths(year: Double) -> Double {
+    return year * 12
+}
+
+fromYearToMonths(4)
+fromYearToMonths(10)
+
+func fromFahrenheitToCelsius(temperature: Double) -> Double {
+    return (temperature - 32) * 5 / 9
+}
+
+fromFahrenheitToCelsius(95)
+fromFahrenheitToCelsius(70)
+
+
+
+
+
+
